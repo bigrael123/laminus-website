@@ -42,19 +42,15 @@ body{
 }
 .Home:hover{
   color: #0011ff;
-  font-size: 5vh;
 }
 .Games:hover{
   color: #0011ff;
-  font-size: 5vh;
 }
 .Career:hover{
   color: #0011ff;
-  font-size: 5vh;
 }
 .About:hover{
   color: #0011ff;
-  font-size: 5vh;
 }
 
 .App-logo {
@@ -70,7 +66,7 @@ body{
   display: flex;
 }
 #futurefeed{
-  font-size: 5vh;
+  font-size: 45px;
 }
 .Logo{
   height: 300px;
@@ -95,10 +91,8 @@ body{
     margin-left: 100px;
   }
   .Games{
-    margin-right: 2vh;
   }
   .Career{
-    margin-left: 1vh;
   }
   .About{
     margin-right: 100px;
@@ -111,13 +105,48 @@ body{
     margin-left: 50px;
   }
   .Games{
-    margin-right: 2vh;
   }
   .Career{
-    margin-left: 1vh;
   }
   .About{
     margin-right: 50px;
   }
-  
+  *{
+    font-size: 24px !important;
+}
+}
+@media only screen and (max-width: 426px){
+
+  .Home{
+    margin-left: 25px;
+  }
+  .Games{
+  }
+  .Career{
+  }
+  .About{
+    margin-right: 25px;
+  }
+  *{
+    font-size: 24px !important;
+}
+}
+@media only screen and (max-width: 382px){
+
+  .Home{
+    margin-left: 10px;
+  }
+  .Games{
+  }
+  .Career{
+  }
+  .About{
+    margin-right: 10px;
+  }
+  .Logo{
+    height: 150px;
+  }
+  *{
+    font-size: 12px !important;
+}
 }

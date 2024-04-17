@@ -20,7 +20,7 @@ function App() {
       <img src={logo} className="Logo" alt='Logo' />
       <div id='home'>
       <Link onClick={home} className='Home'>Home</Link>
-      <Link onClick={Games} className='Games'>Software</Link>
+      <Link onClick={Games} className='Games'>Games</Link>
       <Link onClick={Career} className='Career'>Career</Link>
       <Link onClick={about} className='About'>About Us</Link>
       </div>

@@ -2,7 +2,7 @@ import logo from './logo.jpeg';
 import './App.css';
 import { Link } from "react-router-dom"
 function App() {
-  const home = () => {
+  const Home = () => {
     document.getElementById("futurefeed").innerHTML = "This will be a feed in the future";
   }
   const about = () => {
@@ -19,7 +19,7 @@ function App() {
     <header className="App">
       <img src={logo} className="Logo" alt='Logo' />
       <div id='home'>
-      <Link onClick={home} className='Home'>Home</Link>
+      <Link onClick={Home} className='Home'>Home</Link>
       <Link onClick={Games} className='Games'>Games</Link>
       <Link onClick={Career} className='Career'>Career</Link>
       <Link onClick={about} className='About'>About Us</Link>

@@ -22,44 +22,41 @@ body{
 }
 .Home{
   color: #fff;
-  font-size: 5vh;
-  margin-left: 20vh;
+  font-size: 45px;
+  margin-left: 200px;
 }
 .Games{
   color: #fff;
-  font-size: 5vh;
-  margin-right: 10vh;
+  font-size: 45px;
+  margin-right: 10px;
 }
 .Career{
   color: #fff;
-  font-size: 5vh;
-  margin-left: 5vh;
+  font-size: 45px;
+  margin-left: 5px;
 }
 .About{
   color: #fff;
-  font-size: 5vh;
-  margin-right: 20vh;
+  font-size: 45px;
+  margin-right: 200px;
 }
 .Home:hover{
   color: #0011ff;
   font-size: 5vh;
-  margin-left: 20vh;
 }
 .Games:hover{
   color: #0011ff;
   font-size: 5vh;
-  margin-right: 10vh;
 }
 .Career:hover{
   color: #0011ff;
   font-size: 5vh;
-  margin-left: 5vh;
 }
 .About:hover{
   color: #0011ff;
   font-size: 5vh;
-  margin-right: 20vh;
 }
+
 .App-logo {
   height: 40vmin;
   
@@ -76,7 +73,7 @@ body{
   font-size: 5vh;
 }
 .Logo{
-  height: 30vh;
+  height: 300px;
 }
 .App-header {
   background-color: #062769;
@@ -92,4 +89,35 @@ body{
 .App-link {
   color: #3557ee;
 }
+@media only screen and (max-width: 1024px){
 
+  .Home{
+    margin-left: 100px;
+  }
+  .Games{
+    margin-right: 2vh;
+  }
+  .Career{
+    margin-left: 1vh;
+  }
+  .About{
+    margin-right: 100px;
+  }
+  
+}
+@media only screen and (max-width: 794px){
+
+  .Home{
+    margin-left: 50px;
+  }
+  .Games{
+    margin-right: 2vh;
+  }
+  .Career{
+    margin-left: 1vh;
+  }
+  .About{
+    margin-right: 50px;
+  }
+  
+}

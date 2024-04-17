@@ -1,20 +1,66 @@
+body{
+  background-color: #010611;
+}
 .App {
   text-align: center;
+  color: #fff;
+  box-sizing:border-box;
+  justify-content: center;
+  align-items: baseline;
+  background-color: #060b17;
 }
-
+#test{
+  text-align: center;
+  color: #fff;
+  box-sizing:border-box;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: #010611;
+}
+.Home{
+  font-size: 5vh;
+  margin-left: 20vh;
+}
+.Games{
+  font-size: 5vh;
+  margin-right: 10vh;
+}
+.Career{
+  font-size: 5vh;
+  margin-left: 5vh;
+}
+.About{
+  font-size: 5vh;
+  margin-right: 20vh;
+}
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
+  
 }
-
+#home{
+  display: flex;
+  justify-content: space-between;
+}
+#about{
+  right: 350px;
+  display: flex;
+}
+#futurefeed{
+  font-size: 5vh;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.Logo{
+  height: 30vh;
+}
 .App-header {
-  background-color: #282c34;
+  background-color: #062769;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
